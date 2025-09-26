@@ -12,32 +12,13 @@ This project analyzes customer and transaction data to produce actionable insigh
 📁 Folder structure
 bank-analysis/
 ├─ data/
-│  ├─ Banking.csv
-│  └─ README_DATA.md
+│  └─ Banking.csv
 ├─ sql/
-│  ├─ Bank analysis sql.sql
-│  ├─ schema_create.sql
-│  └─ sample_queries.sql
-├─ notebooks/
-│  └─ eda_bank_analysis.ipynb  (or eda_bank_analysis.py)
+│  └─ Bank analysis sql.sql
 ├─ powerbi/
 │  └─ Bank Analysis.pbix
-├─ docs/
-│  ├─ data_dictionary.md
-│  ├─ ER_diagram.md
-│  └─ dashboard_spec.md
-├─ tests/
-│  └─ test_data_quality.py
-├─ .github/
-│  ├─ workflows/
-│  │  └─ python-ci.yml
-│  ├─ ISSUE_TEMPLATE.md
-│  └─ PULL_REQUEST_TEMPLATE.md
-├─ .gitignore
-├─ README.md
-├─ CONTRIBUTING.md
-├─ LICENSE (MIT)
-└─ requirements.txt
+└─ README.md
+
 
 ⚙️ Prerequisites
 - MySQL / MariaDB (or adapt SQL for Postgres)
